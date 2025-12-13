@@ -99,15 +99,14 @@ const Manager = () => {
   <tbody className='bg-green-100'>
     {passwordArray.map((item, index) =>{
       return <tr key={index}>
-      <td className='py-2 border border-white text-center w-32'>{item.site}</td>
+      <td className='py-2 border border-white text-center w-32'><a href={item.site} target='blank'>{item.site}</a></td>
       <td className='py-2 border border-white text-center w-32'>{item.username}</td>
       <td className='py-2 border border-white text-center w-32'>{item.password}</td>
     </tr>
     })}
     
-    
   </tbody>
-</table>}
+</table>} 
         </div>
       </div>
           

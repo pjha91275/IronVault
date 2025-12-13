@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar.jsx'
 import Manager from './components/Manager.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Manager />
+      <div className="min-h-[87vh]">
+        <Manager />
+      </div>
+      <Footer />
     </>
   )
 }
