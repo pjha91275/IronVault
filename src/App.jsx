@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className=" bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"><Manager /></div>
+      <div className="[background:radial-gradient(120%_120%_at_40%_20%,#001_30%,#53e_90%)]"><Manager /></div>
       <Footer />
     </>
   )
