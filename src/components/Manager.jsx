@@ -249,7 +249,7 @@ const Manager = () => {
                             className="flex items-center justify-center"
                             onClick={() => copyText(item.password)}
                           >
-                            <span>{item.password}</span>
+                            <span>{"*".repeat(item.password.length)}</span>
                             <div
                               className="icons8copy size-7 cursor-pointer"
                               onClick={() => {
